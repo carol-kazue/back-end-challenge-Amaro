@@ -1,0 +1,15 @@
+POST http://localhost:3003/products
+Content-Type: application/json
+
+{
+   "name": "VESTIDO AZULADO"
+}
+
+###
+POST http://localhost:3003/products/tag
+Content-Type: application/json
+
+{
+   "id_roupa": "f90ea94b-50ba-4f79-8b86-0db044c41c15", 
+   "id_tag": "13"
+}
