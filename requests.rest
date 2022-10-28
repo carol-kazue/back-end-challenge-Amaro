@@ -13,3 +13,12 @@ Content-Type: application/json
    "id_roupa": "f90ea94b-50ba-4f79-8b86-0db044c41c15", 
    "id_tag": "13"
 }
+###
+GET  http://localhost:3003/products/search?q=AZULADO
+Content-Type: application/json
+###
+GET  http://localhost:3003/products/search?q=8083
+Content-Type: application/json
+###
+GET  http://localhost:3003/products/search?q=couro
+Content-Type: application/json
